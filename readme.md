@@ -17,13 +17,13 @@
 
 这篇文章提出后就成为CTR领域的MTL标配了。MMOE模型在多任务之间相关性较低的时候，效果也能表现得很不错。
 
-![MMOE](.\imgs\MMOE.jpg)
+![MMOE](./imgs/MMOE.jpg)
 
 #### 2. PLE ：Tencent RecSys 2020
 
 此模型是对MMOE的改进，结构简洁，效果显著。它在MMOE的基础上，为每个任务添加了自己的specific expert。在不同相似度的任务上，PLE都表现优异。
 
-![PLE](.\imgs\PLE.jpg)
+![PLE](./imgs/PLE.jpg)
 
 #### 3. ESMM：SIGIR 18
 
